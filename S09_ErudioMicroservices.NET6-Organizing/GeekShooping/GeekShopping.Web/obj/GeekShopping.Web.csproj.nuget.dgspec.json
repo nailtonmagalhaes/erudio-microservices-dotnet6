@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DEV\\Cusro\\Udemy\\Arquitetura de Microsserviços\\erudio-microservices-dotnet6\\S08_ErudioMicroservices.NET6-Organizing\\GeekShooping\\GeekShopping.Web\\GeekShopping.Web.csproj": {}
+    "D:\\DEV\\Cusro\\Udemy\\Arquitetura de Microsserviços\\erudio-microservices-dotnet6\\S09_ErudioMicroservices.NET6-Organizing\\GeekShooping\\GeekShopping.Web\\GeekShopping.Web.csproj": {}
   },
   "projects": {
-    "D:\\DEV\\Cusro\\Udemy\\Arquitetura de Microsserviços\\erudio-microservices-dotnet6\\S08_ErudioMicroservices.NET6-Organizing\\GeekShooping\\GeekShopping.Web\\GeekShopping.Web.csproj": {
+    "D:\\DEV\\Cusro\\Udemy\\Arquitetura de Microsserviços\\erudio-microservices-dotnet6\\S09_ErudioMicroservices.NET6-Organizing\\GeekShooping\\GeekShopping.Web\\GeekShopping.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DEV\\Cusro\\Udemy\\Arquitetura de Microsserviços\\erudio-microservices-dotnet6\\S08_ErudioMicroservices.NET6-Organizing\\GeekShooping\\GeekShopping.Web\\GeekShopping.Web.csproj",
+        "projectUniqueName": "D:\\DEV\\Cusro\\Udemy\\Arquitetura de Microsserviços\\erudio-microservices-dotnet6\\S09_ErudioMicroservices.NET6-Organizing\\GeekShooping\\GeekShopping.Web\\GeekShopping.Web.csproj",
         "projectName": "GeekShopping.Web",
-        "projectPath": "D:\\DEV\\Cusro\\Udemy\\Arquitetura de Microsserviços\\erudio-microservices-dotnet6\\S08_ErudioMicroservices.NET6-Organizing\\GeekShooping\\GeekShopping.Web\\GeekShopping.Web.csproj",
+        "projectPath": "D:\\DEV\\Cusro\\Udemy\\Arquitetura de Microsserviços\\erudio-microservices-dotnet6\\S09_ErudioMicroservices.NET6-Organizing\\GeekShooping\\GeekShopping.Web\\GeekShopping.Web.csproj",
         "packagesPath": "C:\\Users\\Nailton\\.nuget\\packages\\",
-        "outputPath": "D:\\DEV\\Cusro\\Udemy\\Arquitetura de Microsserviços\\erudio-microservices-dotnet6\\S08_ErudioMicroservices.NET6-Organizing\\GeekShooping\\GeekShopping.Web\\obj\\",
+        "outputPath": "D:\\DEV\\Cusro\\Udemy\\Arquitetura de Microsserviços\\erudio-microservices-dotnet6\\S09_ErudioMicroservices.NET6-Organizing\\GeekShooping\\GeekShopping.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
@@ -49,6 +49,24 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.12.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
