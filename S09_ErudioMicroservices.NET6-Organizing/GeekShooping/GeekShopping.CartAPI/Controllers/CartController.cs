@@ -78,7 +78,7 @@ public class CartController : ControllerBase
         if (!string.IsNullOrEmpty(vo.CouponCode))
         {
             string token = Request.Headers["Authorization"];
-            CouponVO coupon = await _couponRepository.GetCoupon(vo.CouponCode, token);
+            CouponVO coupon = await _couponRepository.GetCoupon(vo.CouponCode, token.Replace("Bearer ", ""));
             if (vo.DiscountAmount != coupon.DiscountAmount)
                 return StatusCode(412);
         }
