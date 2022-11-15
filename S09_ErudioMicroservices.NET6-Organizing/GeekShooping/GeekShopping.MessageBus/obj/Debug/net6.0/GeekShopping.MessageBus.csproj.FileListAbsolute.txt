@@ -1,0 +1,12 @@
+D:\DEV\Cusro\Udemy\Arquitetura de Microsserviços\erudio-microservices-dotnet6\S09_ErudioMicroservices.NET6-Organizing\GeekShooping\GeekShopping.MessageBus\bin\Debug\net6.0\GeekShopping.MessageBus.deps.json
+D:\DEV\Cusro\Udemy\Arquitetura de Microsserviços\erudio-microservices-dotnet6\S09_ErudioMicroservices.NET6-Organizing\GeekShooping\GeekShopping.MessageBus\bin\Debug\net6.0\GeekShopping.MessageBus.dll
+D:\DEV\Cusro\Udemy\Arquitetura de Microsserviços\erudio-microservices-dotnet6\S09_ErudioMicroservices.NET6-Organizing\GeekShooping\GeekShopping.MessageBus\bin\Debug\net6.0\GeekShopping.MessageBus.pdb
+D:\DEV\Cusro\Udemy\Arquitetura de Microsserviços\erudio-microservices-dotnet6\S09_ErudioMicroservices.NET6-Organizing\GeekShooping\GeekShopping.MessageBus\obj\Debug\net6.0\GeekShopping.MessageBus.csproj.AssemblyReference.cache
+D:\DEV\Cusro\Udemy\Arquitetura de Microsserviços\erudio-microservices-dotnet6\S09_ErudioMicroservices.NET6-Organizing\GeekShooping\GeekShopping.MessageBus\obj\Debug\net6.0\GeekShopping.MessageBus.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEV\Cusro\Udemy\Arquitetura de Microsserviços\erudio-microservices-dotnet6\S09_ErudioMicroservices.NET6-Organizing\GeekShooping\GeekShopping.MessageBus\obj\Debug\net6.0\GeekShopping.MessageBus.AssemblyInfoInputs.cache
+D:\DEV\Cusro\Udemy\Arquitetura de Microsserviços\erudio-microservices-dotnet6\S09_ErudioMicroservices.NET6-Organizing\GeekShooping\GeekShopping.MessageBus\obj\Debug\net6.0\GeekShopping.MessageBus.AssemblyInfo.cs
+D:\DEV\Cusro\Udemy\Arquitetura de Microsserviços\erudio-microservices-dotnet6\S09_ErudioMicroservices.NET6-Organizing\GeekShooping\GeekShopping.MessageBus\obj\Debug\net6.0\GeekShopping.MessageBus.csproj.CoreCompileInputs.cache
+D:\DEV\Cusro\Udemy\Arquitetura de Microsserviços\erudio-microservices-dotnet6\S09_ErudioMicroservices.NET6-Organizing\GeekShooping\GeekShopping.MessageBus\obj\Debug\net6.0\GeekShopping.MessageBus.dll
+D:\DEV\Cusro\Udemy\Arquitetura de Microsserviços\erudio-microservices-dotnet6\S09_ErudioMicroservices.NET6-Organizing\GeekShooping\GeekShopping.MessageBus\obj\Debug\net6.0\refint\GeekShopping.MessageBus.dll
+D:\DEV\Cusro\Udemy\Arquitetura de Microsserviços\erudio-microservices-dotnet6\S09_ErudioMicroservices.NET6-Organizing\GeekShooping\GeekShopping.MessageBus\obj\Debug\net6.0\GeekShopping.MessageBus.pdb
+D:\DEV\Cusro\Udemy\Arquitetura de Microsserviços\erudio-microservices-dotnet6\S09_ErudioMicroservices.NET6-Organizing\GeekShooping\GeekShopping.MessageBus\obj\Debug\net6.0\ref\GeekShopping.MessageBus.dll

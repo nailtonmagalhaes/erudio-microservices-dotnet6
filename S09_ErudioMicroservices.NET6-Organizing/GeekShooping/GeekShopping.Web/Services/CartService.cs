@@ -61,9 +61,15 @@ public class CartService : BaseService, ICartService
         else throw new Exception("Something went wrong when calling API");
     }
 
-    public async Task<CartViewModel> Checkout(CartHeaderViewModel cartHeader, string token)
+    public async Task<object> Checkout(CartHeaderViewModel model, string token)
     {
-        throw new NotImplementedException();
+        SetHeaderToken(token);
+        var response = await _client.PostAsJson($"{_basePath}/checkout", model);
+        if (response.IsSuccessStatusCode)
+            return await response.ReadContentAs<CartHeaderViewModel>();
+        else if (response.StatusCode.ToString().Equals("PreconditionFailed"))
+            return "Coupon Price has changed, please confirm!";
+        else throw new Exception("Something went wrong when calling API");
     }
 
     public async Task<bool> ClearCart(string userId, string token)

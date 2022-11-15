@@ -59,11 +59,33 @@ public class CartController : BaseController<CartController>
         return View();
     }
 
-    [Authorize]
     [HttpGet]
     public async Task<IActionResult> Checkout()
     {
         return View(await FindUserCart());
+    }
+
+
+    [HttpPost]
+    public async Task<IActionResult> Checkout(CartViewModel model)
+    {
+        var response = await _cartService.Checkout(model.CartHeader, await GetToken());
+
+        if (response != null && response.GetType() == typeof(string))
+        {
+            TempData["Error"] = response;
+            return RedirectToAction(nameof(Checkout));
+        }
+        else if (response != null)
+            return RedirectToAction(nameof(Confirmation));
+
+        return View(model);
+    }
+
+    [HttpGet]
+    public async Task<IActionResult> Confirmation()
+    {
+        return View();
     }
 
     private async Task<CartViewModel> FindUserCart()

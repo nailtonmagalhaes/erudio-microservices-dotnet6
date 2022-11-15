@@ -43,3 +43,6 @@ D:\DEV\Cusro\Udemy\Arquitetura de Microsserviços\erudio-microservices-dotnet6\S
 D:\DEV\Cusro\Udemy\Arquitetura de Microsserviços\erudio-microservices-dotnet6\S09_ErudioMicroservices.NET6-Organizing\GeekShooping\GeekShopping.CartAPI\obj\Debug\net6.0\GeekShopping.CartAPI.pdb
 D:\DEV\Cusro\Udemy\Arquitetura de Microsserviços\erudio-microservices-dotnet6\S09_ErudioMicroservices.NET6-Organizing\GeekShooping\GeekShopping.CartAPI\obj\Debug\net6.0\GeekShopping.CartAPI.genruntimeconfig.cache
 D:\DEV\Cusro\Udemy\Arquitetura de Microsserviços\erudio-microservices-dotnet6\S09_ErudioMicroservices.NET6-Organizing\GeekShooping\GeekShopping.CartAPI\obj\Debug\net6.0\ref\GeekShopping.CartAPI.dll
+D:\DEV\Cusro\Udemy\Arquitetura de Microsserviços\erudio-microservices-dotnet6\S09_ErudioMicroservices.NET6-Organizing\GeekShooping\GeekShopping.CartAPI\bin\Debug\net6.0\RabbitMQ.Client.dll
+D:\DEV\Cusro\Udemy\Arquitetura de Microsserviços\erudio-microservices-dotnet6\S09_ErudioMicroservices.NET6-Organizing\GeekShooping\GeekShopping.CartAPI\bin\Debug\net6.0\GeekShopping.MessageBus.dll
+D:\DEV\Cusro\Udemy\Arquitetura de Microsserviços\erudio-microservices-dotnet6\S09_ErudioMicroservices.NET6-Organizing\GeekShooping\GeekShopping.CartAPI\bin\Debug\net6.0\GeekShopping.MessageBus.pdb
